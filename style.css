@@ -4,7 +4,9 @@
 
 .main2{display: flex; flex-direction: column; align-items: center;}
 
-.main3{background-color: #e5e7eb;}
+.main3{background-color: #e5e7eb; display: flex; align-items: center; justify-content: center; gap: 30px}
+
+.main4{display: flex; justify-content: center; align-items: center;}
 
 .container1{display: flex; justify-content: space-evenly;}
 
@@ -12,9 +14,9 @@
 
 .title{font-size: 48px; font-weight: bold; color: #f9faf8; margin: 0}
 
-a{font-size: 18px; color: #e5e7eb;}
+a{font-size: 18px; color: #e5e7eb; text-decoration: none;}
 
-ul{list-style-type: none;}
+ul{list-style-type: none; display: flex; gap: 30px}
 
 .img1{width: 400px; height: auto; margin-left: 50px}
 
@@ -24,14 +26,25 @@ ul{list-style-type: none;}
 
 .con{display: flex;}
 
+.p {color: grey}
+
 h3{font-size: 24px; color: #f9faf8;}
 
 button{background-color: #3882f6; width: 100px; height: 50px}
 
-h2{font-size: 36px; font-weight: bold; color: #1F2937 }
+.h21{font-size: 36px; font-weight: bold; color: #1F2937 }
 
 .quotetext{font-size: 36px; font-style: italic; font-weight: light; color: #1F2937}
 
 .col{display: flex; gap: 100px}
 
 .footer{display: flex; justify-content: center; background-color: #1F2937; color: white}
+
+.Sign{ display: flex; flex-direction: column; border-radius: 12px;}
+.Button{ color: white; background-color: #3882f6;  margin-left: 40px; align-self: center; border-color: white;}
+
+.new{border-radius: 12px;}
+
+.h22{margin: 0}
+
+.all {display: flex; color: white; background-color: #3882f6; border-radius: 12px;}

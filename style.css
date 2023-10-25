@@ -4,9 +4,12 @@
 
 .main2{display: flex; flex-direction: column; align-items: center;}
 
-.main3{background-color: #e5e7eb; display: flex; align-items: center; justify-content: center; gap: 30px}
+.main3{background-color: #e5e7eb; display: flex; align-items: center; justify-content: center; gap: 30px;;}
 
-.main4{display: flex; justify-content: center; align-items: center;}
+.main4{display: flex; justify-content: space-evenly; background-color: #3882F6; margin-left: auto;
+    margin-right: auto; margin:80px 150px 80px 150px ;
+    color:#F9FAF8;
+    border-radius:5px}
 
 .container1{display: flex; justify-content: space-evenly;}
 
@@ -30,7 +33,7 @@ ul{list-style-type: none; display: flex; gap: 30px}
 
 h3{font-size: 24px; color: #f9faf8;}
 
-button{background-color: #3882f6; width: 100px; height: 50px}
+button{background-color: #3882f6; width: 100px; height: 50px; border-radius: 12px; color: white; }
 
 .h21{font-size: 36px; font-weight: bold; color: #1F2937 }
 
@@ -40,11 +43,17 @@ button{background-color: #3882f6; width: 100px; height: 50px}
 
 .footer{display: flex; justify-content: center; background-color: #1F2937; color: white}
 
-.Sign{ display: flex; flex-direction: column; border-radius: 12px;}
-.Button{ color: white; background-color: #3882f6;  margin-left: 40px; align-self: center; border-color: white;}
+.new{border-radius: 12px; align-self: center;
+    padding:5px 25px 5px 25px;
+    color:#F9FAF8;
+    background-color: #3882F6;
+    border-radius: 12px;
+    border-color: #F9FAF8;
+    }
 
-.new{border-radius: 12px;}
+.h22{font-weight: 900;
+    font-size: 18px;
+    margin:40px 0 10px 0;}
 
-.h22{margin: 0}
-
-.all {display: flex; color: white; background-color: #3882f6; border-radius: 12px;}
+.sub-text{ margin:0 0 40px 0;}
+.all { border-radius: 12px; display: flex; flex-direction: column;}
